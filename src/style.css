@@ -1,0 +1,29 @@
+i:hover,
+#history-color span:hover {
+    cursor: pointer;
+}
+
+.info {
+    position: absolute;
+    right: 70px;
+    bottom: 60px;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(192, 205, 206);
+}
+
+#history-color {
+    position: absolute;
+    right: 30px;
+    top: 50px;
+}
+
+#history-color ul {
+    list-style: none;
+}
+
+.fa-copy:hover,
+.fa-close:hover {
+    opacity: 0.7;
+}
